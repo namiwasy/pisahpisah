@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center p-4 text-black'
+        <nav className='flex justify-end space-x-4 items-end p-4 text-black font-bold'
     style={{ backgroundColor: '#FFC5D3' }}>
             <div className="logo">
                 <h1>hawooooo</h1>

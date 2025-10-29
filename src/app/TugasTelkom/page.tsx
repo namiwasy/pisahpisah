@@ -1,5 +1,6 @@
 function Page() {
   return (
+    
     <div className="bg-white h-full ">
       <div className="flex">
         <img
@@ -21,12 +22,14 @@ function Page() {
             height={30}
             style={{ objectFit: 'contain' }}
           />
-          <h1 className="text-gray-900 text-2xl font-bold mt-3 ml-4">Oktavianto</h1>
-          <h1 className="text-gray-900 text-2xl font-bold mt-3 ml-4">⏷</h1>
+          
+          <h1 className="text-[#2b2b2b] text-2xl font-bold mt-3 ml-4 hover:scale-108">Oktavianto</h1>
+          <h1 className="text-gray-900 text-2xl font-bold mt-3 ml-4 hover:scale-108 ">⏷</h1>
+          
         </div>
       </div>
-
-      <div className="flex justify-between">
+      <div className="flex">
+      <div className="flex justify-between ">
         <div className="bg-white h-40 w-160 rounded-2xl shadow-2xl ml-4 mt-4">
           <div className="bg-[#D3E5F8] h-10 w-160 rounded-t-lg pt-1.5 pl-5 flex">
             <h1 className="text-gray-800 font-semibold">📢 Jurnal Mengajar</h1>
@@ -53,8 +56,8 @@ function Page() {
           </div>
           <div className="flex">
             <h1 className="text-gray-900 font-semibold text-xs ml-22">Hadir</h1>
-            <h1 className="text-gray-900 font-semibold text-xs ml-20">Tidak hadir</h1>
-            <h1 className="text-gray-900 font-semibold text-xs ml-17">Belum</h1>
+            <h1 className="text-gray-900 font-semibold text-xs ml-18">Tidak hadir</h1>
+            <h1 className="text-gray-900 font-semibold text-xs ml-19">Belum</h1>
             <h1 className="text-gray-900 font-semibold text-xs ml-22">Draft</h1>
             <h1 className="text-gray-900 font-semibold text-xs ml-20">Simpan</h1>
           </div>
@@ -74,25 +77,30 @@ function Page() {
           />
         </div>
       </div>
-      <div className="flex justify-between">
+      <div>
+      </div>
+      </div>
+      {/* Aplikasi dan News Section */}
+      <div>
+       <div className="flex justify-between">
         <div className='bg-white shadow-2xl h-130 ml-5 mt-5 w-180 rounded-2xl '>
           <div className='bg-[#d7dff8] h-10 w-180 rounded-t-lg pt-1.5 pl-5 flex'>
             <h1 className='text-gray-800 font-semibold'>📢 Aplikasi</h1>
           </div>
           <div className='flex gap-10 justify-center mt-50'>
-            <div className='bg-[#30385b] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
+            <div className='bg-[#30385b]   hover:bg-[#87CEFA]  h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
               <h1 className='text-center text-3xl mt-2.5'>📑</h1>
             </div>
-            <div className='bg-[#30385b] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
+            <div className='bg-[#30385b]  hover:bg-[#87CEFA] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
               <h1 className='text-center text-3xl mt-2.5'>💯</h1>
             </div>
-            <div className='bg-[#30385b] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
+            <div className='bg-[#30385b] hover:bg-[#87CEFA] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
               <h1 className='text-center text-3xl mt-2.5'>📖</h1>
             </div>
-            <div className='bg-[#30385b] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
+            <div className='bg-[#30385b] hover:bg-[#87CEFA] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
               <h1 className='text-center text-3xl mt-2.5'>📋</h1>
             </div>
-            <div className='bg-[#30385b] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
+            <div className='bg-[#30385b] hover:bg-[#87CEFA] h-15 w-15 rounded-md cursor-pointer hover:scale-108 transition'>
               <h1 className='text-center text-3xl mt-2.5'>📚</h1>
             </div>
           </div>
@@ -121,8 +129,9 @@ function Page() {
               </div>
             </div>
           </div>
-
         </div>
+        
+      </div>
       </div>
     </div>
   );

@@ -174,16 +174,16 @@ export default function Page() {
             <div className="mt-5" key={skill.name}>
               <div className="flex items-center justify-between mb-1">
                 <span className="text-white flex items-center gap-2">
-                  <i className={`fa-brands fa-${skill.name.toLowerCase()} text-[${skill.color}]`}></i>
+                  <i className={`fa-brands fa-${skill.name.toLowerCase()}`}></i>
                   {skill.name}
                 </span>
                 <span className="text-[#ffffff]">{skill.percent}</span>
               </div>
               <div className="w-full bg-gray-800 rounded-full h-3">
-                <div>
+                <div
                   className="bg-[#ff97e7] h-3 rounded-full"
                   style={{ width: skill.percent }}
-                </div>
+                ></div>
               </div>
             </div>
           ))}
